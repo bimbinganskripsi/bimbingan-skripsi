@@ -1,17 +1,22 @@
-akses admin 
-username & password : admin
+Username dan Password Website
 
-akses Dosen
-username : (NIDN yang di input oleh admin)
-pasword : 12345
+Admin
+username : admin
+password : admin
 
-akses mahasiswa
-username : (NIM yang di input oleh admin)
+Mahsiswa
+username : ID yang ada didalam website admin
+pasword  : 12345
+
+Mahasiswa
+username : ID yang ada didalam website admin
 password : 12345
 
-alur sistem : 
-admin melem=ngkapi data yang ada di dalam aplikasi
-sperti jurusan, konsentrasi, data mahasiswa,dan data dosen .
-lalu mahasiswa akses dan mengajukan proposal,jika di acc oleh dosen maka lanjut ketahap bimbingan sampai fix di acc oleh dosen.
+Alur website :
 
-password zip='setelah pelunasan'
+ jika mahasiswa ingin mengajukan bimbingan, admin menginput nama mahasiswa yang ingin bimbingan
+skripsi dan admin membuat data mahasiswa, ketika NIM mahasiswa telah dibuat, mahasiswa masuk ke website lalu
+mengisi deskripsi abstrak dan judul setelah itu submit, otomatis masuk ke kaprodi, lalu kaprodi acc judul,
+setelah itu mahasiswa mengirim file untuk bimbingan, lalu dosen mengoreksi melalui catatan bimbingan,
+setelah bimbingan selama 8 pertemuan, dosen menyetujui skripsi (acc), lalu mahasiswa bisa mencetak
+kartu bimbingan dengan keterangannya.
